@@ -67,7 +67,6 @@ public class SelenideTests {
     @Test
     public void userForms(){
         open("https://demoqa.com/text-box");
-
         SelenideElement fullNameInput = $("#userName");
         SelenideElement emailInput = $(byId("userEmail"));
         SelenideElement currentAddressInput = $(byXpath("//*[@id=\"currentAddress\"]"));
